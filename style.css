@@ -1,0 +1,69 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+ height: 100%
+
+
+}
+
+body{
+
+	background-color: #bdbdbd;
+}
+img {
+
+	
+	width: 100%;
+	height: 100%;
+}
+
+.cycle-slideshow {
+
+
+max-width: 600px;
+display: relative;
+position: 30px auto;
+margin: 30px auto;
+border: 1px solid black;
+
+}
+
+.cycle-prev{
+
+
+
+
+font-size: 600%;
+
+color: ;
+display: block;
+position: absolute;
+
+top: 30%;
+z-index: 999;
+
+}
+.cycle-next{
+
+
+
+
+font-size: 600%;
+
+color: ;
+display: block;
+position: absolute;
+
+top: 30%;
+z-index: 999;
+
+}
+.cycle-prev{left:1%}
+
+.cycle-next{right:1%}
+
+.cycle-pager  .cycle-pager-active{background-color: white;}
